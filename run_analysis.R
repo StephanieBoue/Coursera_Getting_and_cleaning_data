@@ -7,7 +7,8 @@ library(plyr)
 library(reshape2)
 
 
-setwd("C:/Users/Steph/Documents/Coursera_Data_science/Course3_Get_and_Clean_Data/Course_project")
+#setwd("C:/Users/Steph/Documents/Coursera_Data_science/Course3_Get_and_Clean_Data/Course_project")
+working_dir<-getwd()
 if(!file.exists("./data")){dir.create("./data")}
 
 #### Download and unzip file
